@@ -2,12 +2,14 @@ package com.spring.cloud.alibaba.demo.integral;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 
 @SpringBootApplication
-public class GatewayServiceApplication {
+@EnableDiscoveryClient
+public class IntegralServiceApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(GatewayServiceApplication.class, args);
+        SpringApplication.run(IntegralServiceApplication.class, args);
     }
 
 }

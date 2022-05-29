@@ -1,10 +1,10 @@
-package com.spring.cloud.alibaba.demo.integral;
+package com.spring.cloud.alibaba.demo.logistics;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class GatewayServiceApplicationTests {
+class LogisticsServiceApplicationTests {
 
     @Test
     void contextLoads() {
