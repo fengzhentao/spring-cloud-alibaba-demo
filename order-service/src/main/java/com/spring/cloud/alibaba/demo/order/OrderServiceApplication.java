@@ -7,6 +7,8 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import java.util.concurrent.TimeUnit;
+
 @SpringBootApplication
 @EnableDiscoveryClient
 @RestController
@@ -17,10 +19,8 @@ public class OrderServiceApplication {
     }
 
     @GetMapping("/order/{val}")
-    public String test(@PathVariable("val") String val) throws Exception {
-        if (true) {
-            throw new Exception("模拟异常");
-        }
+    public String test(@PathVariable("val") String val) throws InterruptedException {
+//        TimeUnit.SECONDS.sleep(5);
         return "order-service=" + val;
     }
 }

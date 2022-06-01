@@ -1,0 +1,18 @@
+server:
+  port: 9050
+spring:
+  application:
+    name: stock-service
+  profiles:
+    active: dev
+  cloud:
+    nacos:
+      discovery:
+        server-addr: 127.0.0.1:8848
+        namespace: 4fb02ed1-ff14-42b3-aa58-a73b9477f7ac
+        group: TEST_GROUP
+      config:
+        server-addr: 127.0.0.1:8848
+        namespace: 4fb02ed1-ff14-42b3-aa58-a73b9477f7ac
+        group: TEST_GROUP
+        file-extension: yml
