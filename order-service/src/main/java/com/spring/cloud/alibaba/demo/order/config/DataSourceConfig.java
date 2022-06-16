@@ -1,7 +1,6 @@
 package com.spring.cloud.alibaba.demo.order.config;
 
 import com.alibaba.druid.pool.DruidDataSource;
-import feign.Feign;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
