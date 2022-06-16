@@ -24,3 +24,11 @@ spring:
         outputChannel:
           destination: test-topic
           content-type: application/json
+  main:
+    allow-bean-definition-overriding: true
+
+dubbo:
+  registry:
+    address: spring-cloud://localhost
+  cloud:
+    subscribed-services: logistics-service-dubbo

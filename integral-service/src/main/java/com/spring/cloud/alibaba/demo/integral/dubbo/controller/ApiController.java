@@ -1,4 +1,4 @@
-package com.spring.cloud.alibaba.demo.integral.controller;
+package com.spring.cloud.alibaba.demo.integral.dubbo.controller;
 
 import org.springframework.cloud.context.config.annotation.RefreshScope;
 import org.springframework.web.bind.annotation.RequestMapping;

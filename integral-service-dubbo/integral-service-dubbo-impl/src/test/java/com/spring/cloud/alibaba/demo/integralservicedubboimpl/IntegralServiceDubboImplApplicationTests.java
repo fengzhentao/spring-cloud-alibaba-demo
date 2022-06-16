@@ -1,10 +1,10 @@
-package com.spring.cloud.alibaba.demo.integral;
+package com.spring.cloud.alibaba.demo.integralservicedubboimpl;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class IntegralServiceApplicationTests {
+class IntegralServiceDubboImplApplicationTests {
 
     @Test
     void contextLoads() {

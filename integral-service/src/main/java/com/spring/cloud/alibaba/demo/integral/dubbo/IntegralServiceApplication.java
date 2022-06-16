@@ -1,4 +1,4 @@
-package com.spring.cloud.alibaba.demo.integral;
+package com.spring.cloud.alibaba.demo.integral.dubbo;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

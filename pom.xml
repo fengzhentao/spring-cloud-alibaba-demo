@@ -113,6 +113,7 @@
 		<module>stock-service</module>
 		<module>integral-service</module>
 		<module>logistics-service</module>
+		<module>integral-service-dubbo</module>
 	</modules>
 
 	<build>
